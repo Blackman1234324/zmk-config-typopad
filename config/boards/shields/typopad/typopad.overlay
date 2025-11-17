@@ -57,14 +57,14 @@
 			input-code = <INPUT_REL_X>;
 		};
 	};
-};
 
-behaviors {
-    volume_control_x: volume-control-x {
-        compatible = "zmk,behavior-analog-consumer";
-        label = "VOL_CTRL_X";
-        channel = "x-ch";
-        positive-consumer = <INPUT_CONSUMER_VOLUME_UP>;
-        negative-consumer = <INPUT_CONSUMER_VOLUME_DOWN>;
+    behaviors {
+        volume_control_x: volume-control-x {
+            compatible = "zmk,behavior-analog-consumer";
+            label = "VOL_CTRL_X";
+            channel = "x-ch";
+            positive-consumer = <INPUT_CONSUMER_VOLUME_UP>;
+            negative-consumer = <INPUT_CONSUMER_VOLUME_DOWN>;
+        };
     };
 };
