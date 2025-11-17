@@ -11,7 +11,7 @@
                 &kp Z    &kp M 
                 &kp A    &kp B 
                 &kp D    &kp E 
-                &kp C    &kp S 
+                &kp C    &mo 1 
             >;
         };
 
