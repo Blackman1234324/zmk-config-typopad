@@ -7,6 +7,10 @@
 	status = "okay";
 };
 
+&zmk_hid_consumer_report_ep {
+    status = "okay";
+};
+
 / {
     chosen {
         zmk,kscan = &default_kscan0;
