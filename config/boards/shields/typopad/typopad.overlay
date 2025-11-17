@@ -7,10 +7,6 @@
 	status = "okay";
 };
 
-&zmk_hid_consumer_report_ep {
-    status = "okay";
-};
-
 / {
     chosen {
         zmk,kscan = &default_kscan0;
@@ -60,7 +56,7 @@
 			scale-divisor = <70>;
 			invert;
 			evt-type = <INPUT_EV_REL>;
-			input-code = <INPUT_REL_VOLUME>;
+			input-code = <INPUT_REL_X>;
 		};
 	};
 };
