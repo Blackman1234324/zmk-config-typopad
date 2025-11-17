@@ -1,0 +1,6 @@
+if SHIELD_TYPOPAD
+
+config ZMK_KEYBOARD_NAME
+    default "TypoPad"
+
+endif
