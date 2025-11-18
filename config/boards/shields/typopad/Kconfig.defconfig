@@ -7,6 +7,6 @@ config ZMK_BLE
     default y
 
 config ZMK_STUDIO
-   bool "Enable ZMK Studio support"
+    default y
 
 endif
