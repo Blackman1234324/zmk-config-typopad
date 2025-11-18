@@ -8,10 +8,6 @@
 	status = "okay";
 };
 
-&bt {
-    status = "okay";
-};
-
 / {
     chosen {
         zmk,kscan = &default_kscan0;
