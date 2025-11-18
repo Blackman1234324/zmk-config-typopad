@@ -1,0 +1,9 @@
+file_format: "1"
+id: typopad
+name: TypoPad
+type: shield
+url: https://github.com/Blackman1234324/zmk-config-typopad
+requires: [nice_nano]
+features:
+  - keys
+  - studio
