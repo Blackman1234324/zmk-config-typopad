@@ -6,4 +6,10 @@ config ZMK_KEYBOARD_NAME
 config ZMK_BLE
     default y
 
+config ZMK_BATTERY_REPORTING
+    default y
+
+config BT_BAS
+    default y
+
 endif
