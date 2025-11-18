@@ -23,7 +23,7 @@
          compatible = "zmk,physical-layout-position-map";
          complete;
 
-         position_map0: physical_layout0 {
+         position_map0: physical_layout_position_map {
              physical-layout = <&physical_layout0>;
              positions
              = <0 1>
