@@ -1,4 +1,6 @@
 #include <physical_layouts.dtsi>
+#include <dt-bindings/zmk/studio-key-attrs.h>
+
 
 / {
     physical_layout0: physical_layout_0 {
@@ -18,5 +20,24 @@
             , <&key_physical_attrs 100 100    0  300       0     0     0>
             , <&key_physical_attrs 100 100  100  300       0     0     0>
             ;
+
+        zmk,studio-key-attrs = <
+            // İlk tuş: (0, 0)
+            &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 0 0
+            // İkinci tuş: (0, 1)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 0 1
+            // Üçüncü tuş: (1, 0)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 1 0
+            // Dördüncü tuş: (1, 1)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 1 1
+            // Beşinci tuş: (2, 0)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 2 0
+            // Altıncı tuş: (2, 1)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 2 1
+            // Yedinci tuş: (3, 0)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 3 0
+            // Sekizinci tuş: (3, 1)
+            , &studio_key_attrs 1 ZMK_STUDIO_KEY_ATTR_STANDARD 3 1
+        >;
     };
 };
