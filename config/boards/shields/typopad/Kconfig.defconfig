@@ -6,7 +6,4 @@ config ZMK_KEYBOARD_NAME
 config ZMK_BLE
     default y
 
-config ZMK_STUDIO
-    default y
-
 endif
