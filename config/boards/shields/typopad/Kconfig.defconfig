@@ -3,4 +3,7 @@ if SHIELD_TYPOPAD
 config ZMK_KEYBOARD_NAME
     default "TypoPad"
 
+config ZMK_BLE
+    default y
+
 endif
