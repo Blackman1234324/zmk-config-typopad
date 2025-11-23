@@ -8,7 +8,7 @@
 
         default_layer {
             bindings = <
-                &kp Z    &kp M 
+                &0    &kp M 
                 &kp A    &kp B 
                 &kp D    &kp E 
                 &kp C    &mo 1 
@@ -17,9 +17,9 @@
 
         bt_layer {
             bindings = <
-                &bt BT_SEL 0    &bt BT_SEL 1 
-                &bt BT_CLR    &bootloader 
-                &studio_unlock    &none
+                &0    &bt BT_SEL 0 
+                &bt BT_SEL 1    &&bt BT_CLR 
+                &bootloader    &studio_unlock
                 &none    &none
             >;
         };
